@@ -3,6 +3,9 @@
 a {text-decoration: none;}
 
 /*TITULOS*/
+.hero-t1 {font-size: 1.75rem;}
+.hero-t2 {font-size: 1.125rem; margin: 16px 0; font-weight: 400;}
+.hero-t3 {font-size: 1.125rem; font-weight: 400; padding: 0 10%}
 .t1 {font-size: 1.75rem;}
 .t2 {font-size: 1.125rem; margin: 16px 0; font-weight: 400;}
 .t3 {font-size: 1.125rem; font-weight: 400; padding: 0 10%}
@@ -23,7 +26,6 @@ header {display: flex; justify-content: space-between; align-items: center; padd
 header img {width: 90px; margin-left: 5px;}
 
 /*SECTION 1*/
-/*section {padding: 50px 5% 85px 5%; border-bottom: 8px solid #222;}*/
 .section-01 {display: flex; justify-content: center; align-items: center; flex-direction: column; flex-wrap: wrap; text-align: center; background-color: black; color: white; padding: 50px 5% 85px 5%; border-bottom: 8px solid #222;}
 .section-01 form {display: flex; flex-direction: column; align-items: center;}
 .section-01 form input {border-radius: 2px; width: 100%; height: 48px; padding: 10px; margin: 14px 0;}
@@ -35,7 +37,7 @@ header img {width: 90px; margin-left: 5px;}
 
 /*SECTION 3*/
 .animation-02 {width: 100%;}
-.box {display: flex; align-items: center; width: 80%; padding: 4px 10px; border: 2px solid rgba(255,255,255,.25); border-radius: 10px;}
+.box {display: flex; align-items: center; width: 80%; padding: 4px 10px; border: 2px solid rgba(255,255,255,.25); border-radius: 10px; background-color: black;}
 .box > img:first-child {width: 13%; margin-right: 18px; flex-grow: 0;}
 .box > img:last-child {width: 20%;flex-grow: 0;}
 .box-text {display: flex; flex-direction: column; align-items: flex-start; flex-grow: 1;}
@@ -101,4 +103,104 @@ footer p:last-child {font-size: 13.5px;}
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+/*PARA TABLETS*/
+@media only screen and (min-width: 600px) {
+    /*HEADER*/
+    header {padding: 28px 5%;}
+    header img {width: 110px; margin-left: 5px;}
+
+    /*BUTTONS*/
+    .btn-nf-sm {padding: 7px 18px; margin-right: 8px; font-size: 1rem;}
+
+    /*TITULOS*/
+    .hero-t1 {font-size: 3.125rem;}
+    .hero-t2 {font-size: 1.625rem;}
+    .hero-t3 {font-size: 1.430rem;}
+    .t1 {font-size: 2.5rem;}
+    .t2 {font-size: 1.25rem;}
+    .t3 {font-size: 1.430rem;}
+
+    /*SECTION 1*/
+    .section-01 {padding: 70px 5% 122px 5%;}
+    .section-01 form {margin: 0 14%;}
+    .section-01 form input {height: 60px;}
+
+    /*SECTION 2*/
+    .animation-01 {width: 87%; margin: -10% 0 10% 0;}
+    .video-01 {margin: -62% 0 10% 0; position: relative; width: 64%;}
+
+    /*SECTION 3*/
+    .animation-02 {width: 88%; margin: -6% 0 0 0;}
+    .box {width: 57%;}
+    .box > img:last-child {width: 15%;}
+    .box-text > p:first-child {font-size: 1.125rem;}
+    .box-text > p:last-child {font-size: 0.9rem;} 
+
+    /*SECTION 4*/
+    .animation-03 {width: 88%; margin: -4% 0 0 0;}
+    .video-02 {margin: -59% 0 22% -1%; width: 54%;}
+
+    /*SECTION 5*/
+    .accordion-wrapper {margin: 20px 80px;}
+    .accordion {font-size: 1.295rem;}
+    .panel > p {margin: 20px 0; font-size: 1.295rem;}
+    .section-02 {padding: 65px 0 65px 0;}
+    .section-02 form {margin: 0 12%;}
+    .section-02 form input {height: 60px;}
+
+    /*FOOTER*/
+    footer {padding: 75px 10% 32px 10%;}
+    footer li {width: 25%;}
+}
+
+/*PARA DESKTOP-1*/
+@media only screen and (min-width: 992px) {
+    /*HEADER*/
+    header img {width: 134px;}
+
+    /*BUTTONS*/
+    .btn-nf-sm {padding: 8px 18px; margin-right: 5px; font-size: 1rem;}
+    .btn-nf-lg {border-radius: 2px; margin:14px 0; padding: 10px 16px; font-size: 1.625rem; min-width: 200px;}
+
+    /*TITULOS*/
+    .hero-t1 {margin: 0 100px;}
+    .hero-t2 {font-size: 1.625rem; margin: 16px 0 32px 0;}
+    .hero-t3 {font-size: 1.2rem; padding: 0;}
+    .t1 {font-size: 3.125rem;}
+    .t2 {font-size: 1.625rem;}
+    .t3 {font-size: 1.2rem; padding: 0;}
+
+    /*SECTION 1*/
+    .background > .section-01 {padding: 140px 5% 155px 5%;}
+    .section-01 .campo-email {display: flex; width: 100%;}
+    .section-01 form {margin: 0 14%;}
+
+    /*SECTION 2*/
+    body > .section-01:nth-of-type(1) {flex-direction: row; flex-wrap: nowrap;}
+    .section-01 {padding: 35px 5%;}
+    .group-text-01 {text-align: start; padding: 0 65px 0 0;}
+    .animation-01 {width: 450px; margin: -8px -28px 0 0;}
+    .video-01 {margin: -287px -25px 102px 0; width: 78%;}  
+
+    /*SECTION 3*/
+    body > .section-01:nth-of-type(2) {flex-direction: row-reverse; flex-wrap: nowrap;}
+    .group-text-02 {text-align: start; padding: 0 0 0 100px;}
+    .group-smart {display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 3% 0 5% -9%;}
+    .animation-02 {width: 450px;}
+    .box {width: 280px; height: 90px; margin: -28% 0 0 0;}
+
+    /*SECTION 4*/
+    body > .section-01:nth-of-type(3) {flex-direction: row; flex-wrap: nowrap;}
+    .group-text-03 {text-align: start; padding: 0 65px 0 0;}
+    .group-devices {margin: 4% -5% 1% 0}
+    .animation-03 {width: 465px;}
+    .video-02 {width: 279px; margin: -70% 0 35% -1%;}
+
+    /*SECTION 5*/
+    .accordion-wrapper {margin: 44px 160px;}
+    .accordion {padding: 18px 24px; font-size: 1.6rem;}
+    .panel > p {margin: 20px 12px; font-size: 1.6rem;}
+    .section-02 .campo-email {display: flex; width: 100%;}
 }
