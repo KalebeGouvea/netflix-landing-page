@@ -128,33 +128,41 @@ footer p:last-child {font-size: 13.5px;}
     .t2 {font-size: 1.25rem;}
     .t3 {font-size: 1.430rem;}
 
-    /*SECTION 1*/
+    /*CONTAINER*/
     .container {padding: 70px 5% 122px 5%;}
+
+    /*CONTAINER HERO*/
+    .background > .container {padding: 115px 5% 132px 5%;}
     .container form {margin: 0 14%;}
-    .container form input {height: 60px;}
+    .container form input {width: 500px; height: 60px;}
+
+    /*SECTION 1*/
+    .section-01 {padding: 70px 5% 0 5%;}
+    .group-tv {position: relative; top: 24px;}
+    .animation-01 {width: 87%; margin: -10% 0 10% 0;}
+    .video-01 {margin: -65% 0 29% 0; position: relative; width: 64%;}
 
     /*SECTION 2*/
-    .animation-01 {width: 87%; margin: -10% 0 10% 0;}
-    .video-01 {margin: -62% 0 10% 0; position: relative; width: 64%;}
-
-    /*SECTION 3*/
+    .section-02 {padding: 70px 5% 238px 5%;}
+    .group-smart {bottom: 0;}
     .animation-02 {width: 88%; margin: -6% 0 0 0;}
-    .box {width: 57%;}
+    .box {width: 57%; bottom: 110px;}
     .box > img:last-child {width: 15%;}
     .box-text > p:first-child {font-size: 1.125rem;}
     .box-text > p:last-child {font-size: 0.9rem;} 
 
-    /*SECTION 4*/
+    /*SECTION 3*/
+    .section-03 {padding: 70px 5% 60px 5%;}
     .animation-03 {width: 88%; margin: -4% 0 0 0;}
-    .video-02 {margin: -59% 0 22% -1%; width: 54%;}
+    .video-02 {margin: -62% 0 32% -1%; width: 54%;}
 
-    /*SECTION 5*/
+    /*SECTION 4*/
     .accordion-wrapper {margin: 20px 80px;}
     .accordion {font-size: 1.295rem;}
     .panel > p {margin: 20px 0; font-size: 1.295rem;}
     .section-04 {padding: 65px 0 65px 0;}
     .section-04 form {margin: 0 12%;}
-    .section-04 form input {height: 60px;}
+    .section-04 form input {width: 500px; height: 60px;}
 
     /*FOOTER*/
     footer {padding: 75px 10% 32px 10%;}
