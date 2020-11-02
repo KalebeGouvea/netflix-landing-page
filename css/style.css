@@ -175,46 +175,54 @@ footer p:last-child {font-size: 13.5px;}
     header img {width: 134px;}
 
     /*BUTTONS*/
-    .btn-nf-sm {padding: 8px 18px; margin-right: 5px; font-size: 1rem;}
+    .btn-nf-sm {padding: 6px 18px; margin-right: 5px; font-size: 1rem;}
     .btn-nf-lg {border-radius: 2px; margin:14px 0; padding: 10px 16px; font-size: 1.625rem; min-width: 200px;}
 
     /*TITULOS*/
     .hero-t1 {margin: 0 100px;}
-    .hero-t2 {font-size: 1.625rem; margin: 16px 0 32px 0;}
+    .hero-t2 {font-size: 1.625rem; margin: 8px 0 26px 0;}
     .hero-t3 {font-size: 1.2rem; padding: 0;}
     .t1 {font-size: 3.125rem;}
     .t2 {font-size: 1.625rem;}
     .t3 {font-size: 1.2rem; padding: 0;}
 
-    /*SECTION 1*/
-    .background > .container {padding: 140px 5% 155px 5%;}
+    /*CONTEINER HERO*/
+    .background > .container {padding: 132px 5% 155px 5%;}
     .container .campo-email {display: flex; width: 100%;}
     .container form {margin: 0 14%;}
 
-    /*SECTION 2*/
-    body > .container:nth-of-type(1) {flex-direction: row; flex-wrap: nowrap;}
+    /*SECTION 1*/
+    .section-01 {flex-direction: row; flex-wrap: nowrap;}
     .container {padding: 35px 5%;}
-    .group-text-01 {text-align: start; padding: 0 65px 0 0;}
+    .group-text-01 {text-align: start; padding: 0 48px 0 0;}
+    .group-tv {top: 0;}
     .animation-01 {width: 450px; margin: -8px -28px 0 0;}
     .video-01 {margin: -287px -25px 102px 0; width: 78%;}  
 
-    /*SECTION 3*/
-    body > .container:nth-of-type(2) {flex-direction: row-reverse; flex-wrap: nowrap;}
+    /*SECTION 2*/
+    .section-02 {flex-direction: row-reverse; flex-wrap: nowrap;}
     .group-text-02 {text-align: start; padding: 0 0 0 100px;}
-    .group-smart {display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 3% 0 5% -9%;}
-    .animation-02 {width: 450px;}
-    .box {width: 280px; height: 90px; margin: -28% 0 0 0;}
+    .group-smart {display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 11% 0 2% -7%;}
+    .animation-02 {width: 425px;}
+    .box {width: 280px; padding: 10px 10px;}
+    .box > img:first-child {width: 20%;}
+    .box > img:last-child {width: 20%;}
+    .box-text > p:first-child {font-size: 1em;}
+    .box-text > p:last-child {font-size: 0.9em;}
 
-    /*SECTION 4*/
-    body > .container:nth-of-type(3) {flex-direction: row; flex-wrap: nowrap;}
+    /*SECTION 3*/
+    .section-03 {flex-direction: row; flex-wrap: nowrap;}
     .group-text-03 {text-align: start; padding: 0 65px 0 0;}
     .group-devices {margin: 4% -5% 1% 0}
     .animation-03 {width: 465px;}
-    .video-02 {width: 279px; margin: -70% 0 35% -1%;}
+    .video-02 {width: 279px; margin: -72% 0 38% -1%;}
 
-    /*SECTION 5*/
-    .accordion-wrapper {margin: 44px 160px;}
-    .accordion {padding: 18px 24px; font-size: 1.6rem;}
+    /*SECTION 4*/
+    .accordion-wrapper {margin: 52px 160px;}
+    .accordion {padding: 18px 32px; font-size: 1.6rem;}
     .panel > p {margin: 20px 12px; font-size: 1.6rem;}
-    .section-04 .campo-email {display: flex; width: 100%;}
+    .section-04 .campo-email {display: flex; width: 650px;}
+
+    /*FOOTER*/
+    footer {padding: 75px 9% 32px 9%;}
 }
