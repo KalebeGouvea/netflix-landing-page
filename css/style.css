@@ -226,3 +226,92 @@ footer p:last-child {font-size: 13.5px;}
     /*FOOTER*/
     footer {padding: 75px 9% 32px 9%;}
 }
+
+/*PARA DESKTOP-2*/
+@media only screen and (min-width: 1200px) {
+    /*HEADER*/
+    header {max-width: 1920px; margin: auto; padding: 28px 52px;}
+
+    /*TITULOS*/
+    .hero-t1 {margin: 0 250px;}
+
+    /*CONTEINER HERO*/
+    .background > .container {margin: auto; padding: 132px 5% 155px 5%;}
+
+    /*SECTION 1*/
+    .container {margin: auto;}
+    .section-01 {padding: 35px 7%;}
+    .animation-01 {width: 530px;}
+    .video-01 {margin: -323px -25px 115px 0; width: 388px;}
+
+    /*SECTION 2*/
+    .section-02 {padding: 46px 7%;}
+    .group-text-02 {padding: 0 46px 0 116px;}
+    .animation-02 {width: 504px;}
+    .box {width: 330px;}
+    .box > img:first-child {width: 17%;}
+    .box > img:last-child {width: 17%;}
+
+    /*SECTION 3*/
+    .section-03 {padding: 28px 7%;}
+    .group-text-03 {padding: 0 85px 0 0;}
+    .animation-03 {width: 555px;}
+    .video-02 {width: 340px; margin: -388px -2px 198px 0;}
+    
+    /*SECTION 4*/
+    .section-04 {padding: 65px 5%;}
+
+    /*SECTION 5*/
+    footer {padding: 75px 14% 32px 14%;}
+}
+
+/*PARA DESKTOP-3*/
+@media only screen and (min-width: 1440px) {
+    /*TITULOS*/
+    .hero-t1 {margin: 0 320px;}
+    
+    /*SECTION 1, 2, 3 e 4*/
+    .section-01, .section-02, .section-03, .section-04 {padding: 35px 12%;}
+
+    /*SECTION 4*/
+    .section-04 .campo-email {margin-bottom: 40px;}
+
+    /*FOOTER*/
+    footer {padding: 75px 19% 32px 19%;}
+}
+
+/*PARA DESKTOP-4*/
+@media only screen and (min-width: 1920px) {
+    /*TITULOS*/
+    .hero-t1 {font-size: 4rem; margin: 0 450px;}
+
+    /*HEADER*/
+    header img {width: 167px;}
+
+    /*FORM*/
+    .container form input {height: 68px;}
+    
+    /*SECTION 1, 2, 3 e 4*/
+    .section-01, .section-02, .section-03, .section-04 {padding: 35px 21%;}
+    
+    /*SECTION 4*/
+    .section-04 form input {width: 546px; height: 68px;}
+    .section-04 .campo-email {width: 733px;}
+
+    /*FOOTER*/
+    footer {padding: 75px 27% 32px 27%;}
+}
+
+/*PARA DESKTOP-5*/
+@media only screen and (min-width: 2560px) {
+    /*TITULOS*/
+    .hero-t1 {margin: 0 700px;}
+    
+    /*SECTION 1, 2, 3 e 4*/
+    .section-01, .section-02, .section-03, .section-04 {padding: 35px 29%;}
+    
+    /*FOOTER*/
+    footer {padding: 75px 32% 32px 32%;}
+}
+
+/*USAR MAX WIDTH NO HERO-T1*/
