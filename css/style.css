@@ -179,7 +179,7 @@ footer p:last-child {font-size: 13.5px;}
     .btn-nf-lg {border-radius: 2px; margin:14px 0; padding: 10px 16px; font-size: 1.625rem; min-width: 200px;}
 
     /*TITULOS*/
-    .hero-t1 {margin: 0 100px; max-width: 800px;}
+    .hero-t1 {max-width: 800px;}
     .hero-t2 {font-size: 1.625rem; margin: 8px 0 26px 0;}
     .hero-t3 {font-size: 1.2rem; padding: 0;}
     .t1 {font-size: 3.125rem;}
@@ -232,9 +232,6 @@ footer p:last-child {font-size: 13.5px;}
     /*HEADER*/
     header {max-width: 1920px; margin: auto; padding: 28px 52px;}
 
-    /*TITULOS*/
-    .hero-t1 {margin: 0 250px;}
-
     /*CONTEINER HERO*/
     .background > .container {margin: auto; padding: 132px 5% 155px 5%;}
 
@@ -267,9 +264,6 @@ footer p:last-child {font-size: 13.5px;}
 
 /*PARA DESKTOP-3*/
 @media only screen and (min-width: 1440px) {
-    /*TITULOS*/
-    .hero-t1 {margin: 0 320px;}
-    
     /*SECTION 1, 2, 3 e 4*/
     .section-01, .section-02, .section-03, .section-04 {padding: 35px 12%;}
 
@@ -283,7 +277,7 @@ footer p:last-child {font-size: 13.5px;}
 /*PARA DESKTOP-4*/
 @media only screen and (min-width: 1500px) {
     /*TITULOS*/
-    .hero-t1 {font-size: 4rem; margin: 0 450px;}
+    .hero-t1 {font-size: 4rem;}
 
     /*HEADER*/
     header img {width: 167px;}
@@ -304,9 +298,6 @@ footer p:last-child {font-size: 13.5px;}
 
 /*PARA DESKTOP-5*/
 @media only screen and (min-width: 2560px) {
-    /*TITULOS*/
-    .hero-t1 {margin: 0 700px;}
-    
     /*SECTION 1, 2, 3 e 4*/
     .section-01, .section-02, .section-03, .section-04 {padding: 35px 29%;}
     
