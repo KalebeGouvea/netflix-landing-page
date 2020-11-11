@@ -12,7 +12,9 @@ a {text-decoration: none;}
 
 /*BUTTONS*/
 .btn-nf-sm {background-color: #e50914; color: white; border-radius: 2px; padding: 4px 8px; font-size: 0.9rem;}
-.btn-nf-lg {background-color: #e50914; color: white; border-radius: 2px; padding: 10px 16px; font-size: 1.1rem; min-width: 100px; text-transform: uppercase;}
+.btn-nf-lg {background-color: #e50914; color: white; border-radius: 2px; padding: 10px 16px; font-size: 1.1rem; min-width: 100px; text-transform: uppercase; cursor: pointer;}
+.btn-nf-lg:hover {background-color: #f40612;}
+.btn-nf-lg:active {background-color: #bb0a12;}
 .btn-nf-lg svg {margin-left: 3px;}
 
 /*SELECT*/
