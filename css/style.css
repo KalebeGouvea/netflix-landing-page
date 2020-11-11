@@ -13,9 +13,14 @@ a {text-decoration: none;}
 /*BUTTONS*/
 .btn-nf-sm {background-color: #e50914; color: white; border-radius: 2px; padding: 4px 8px; font-size: 0.9rem;}
 .btn-nf-lg {background-color: #e50914; color: white; border-radius: 2px; padding: 10px 16px; font-size: 1.1rem; min-width: 100px; text-transform: uppercase;}
+.btn-nf-lg svg {margin-left: 3px;}
 
 /*SELECT*/
 .slt-nf {background-color: inherit; color: #999; border: 1px solid rgba(255,255,255,.25); border-radius: 4px; padding: 16px 0; margin: 20px 0;}
+.slt-wrapper select {appearance: none; padding-left: 46px; padding-right: 26px;}
+.slt-wrapper {position: relative;}
+.slt-wrapper svg:nth-of-type(1) {position: absolute; left: 16px; top: 40px; color: #999;}
+.slt-wrapper svg:nth-of-type(2) {position: absolute; left: 127px; top: 42px; color: #999;}
 
 /*BACKGROUND*/
 .background > .container {background-color: transparent;}
