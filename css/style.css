@@ -11,8 +11,8 @@ a {text-decoration: none;}
 .t3 {font-size: 1.125rem; font-weight: 400; padding: 0 8%}
 
 /*BUTTONS*/
-.btn-nf-sm {background-color: #e50914; color: white; border-radius: 2px; padding: 4px 8px; font-size: 0.9rem;}
-.btn-nf-lg {background-color: #e50914; color: white; border-radius: 2px; padding: 10px 16px; font-size: 1.1rem; min-width: 100px; text-transform: uppercase; cursor: pointer;}
+.btn-nf-sm {background-color: #e50914; color: #ffffff; border-radius: 2px; padding: 4px 8px; font-size: 0.9rem;}
+.btn-nf-lg {background-color: #e50914; color:#ffffff; border-radius: 2px; padding: 10px 16px; font-size: 1.1rem; min-width: 100px; text-transform: uppercase; cursor: pointer;}
 .btn-nf-lg:hover {background-color: #f40612;}
 .btn-nf-lg:active {background-color: #bb0a12;}
 .btn-nf-lg svg {margin-left: 3px;}
@@ -33,7 +33,7 @@ header {display: flex; justify-content: space-between; align-items: center; padd
 header img {width: 90px; margin-left: 5px;}
 
 /*CONTAINER*/
-.container {display: flex; justify-content: center; align-items: center; flex-direction: column; flex-wrap: wrap; text-align: center; background-color: black; color: white; padding: 46px 7% 85px 7%; border-bottom: 8px solid #222;}
+.container {display: flex; justify-content: center; align-items: center; flex-direction: column; flex-wrap: wrap; text-align: center; background-color: #000000; color: #ffffff; padding: 46px 7% 85px 7%; border-bottom: 8px solid #222;}
 
 /*FORM*/
 .container form {display: flex; flex-direction: column; align-items: center;}
@@ -49,7 +49,7 @@ header img {width: 90px; margin-left: 5px;}
 .section-02 {padding: 46px 7% 50px 7%;}
 .group-smart {display: flex; flex-direction: column; align-items: center; position: relative; max-height: 225px; bottom: 20px;}
 .animation-02 {width: 100%;}
-.box {display: flex; align-items: center; position: relative; width: 260px; bottom: 80px; padding: 8px 10px; border: 2px solid rgba(255,255,255,.25); border-radius: 10px; background-color: black;}
+.box {display: flex; align-items: center; position: relative; width: 260px; bottom: 80px; padding: 8px 10px; border: 2px solid rgba(255,255,255,.25); border-radius: 10px; background-color: #000000;}
 .box > img:first-child {width: 14%; margin-right: 16px; flex-grow: 0;}
 .box > img:last-child {width: 20%;flex-grow: 0;}
 .box-text {display: flex; flex-direction: column; align-items: flex-start; flex-grow: 1; text-align: start;}
@@ -62,13 +62,13 @@ header img {width: 90px; margin-left: 5px;}
 .video-02 {margin: -74% 0 38% -1%; position: relative; width: 63%;}
 
 /*SECTION 4*/
-.section-04 {display: flex; justify-content: center; align-items: center; flex-direction: column; flex-wrap: wrap; text-align: center; background-color: black; color: white; padding: 50px 0 50px 0; border-bottom: 8px solid #222;}
+.section-04 {display: flex; justify-content: center; align-items: center; flex-direction: column; flex-wrap: wrap; text-align: center; background-color: #000000; color: #ffffff; padding: 50px 0 50px 0; border-bottom: 8px solid #222;}
 .section-04 form {display: flex; flex-direction: column; align-items: center; padding: 0 5% 0 5%}
 .section-04 form input {border-radius: 2px; width: 100%; height: 48px; padding: 10px; margin: 14px 0;}
 .panel > p {margin: 20px 0; font-size: 1.125rem;}
 
 /*FOOTER*/
-footer {padding: 50px 10% 32px 10%; background-color: black; color: #757575}
+footer {padding: 50px 10% 32px 10%; background-color: #000000; color: #757575}
 footer p:first-child {margin-bottom: 30px;}
 footer a {color: #757575; font-size: 13.5px;}
 footer a:hover {text-decoration: underline;}
@@ -84,7 +84,7 @@ footer p:last-child {font-size: 13.5px;}
 
 .accordion {
     background-color: #303030;
-    color: white;
+    color: #ffffff;
     font-size: 1.125rem;
     cursor: pointer;
     padding: 10px 18px;
@@ -99,7 +99,7 @@ footer p:last-child {font-size: 13.5px;}
 .accordion:after {
     content: '\002B'; /* Unicode character for "plus" sign (+) */
     font-size: 1.5rem;
-    color: white;
+    color: #ffffff;
     float: right;
     margin-left: 5px;
 }
