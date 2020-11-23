@@ -8,15 +8,11 @@
 
 ### Descrição do projeto
 
----
-
 <p align="justify"> Este projeto teve por finalidade clonar a interface da landing page da Netflix utilizando HTML5, CSS3 e JavaScript com design responsivo para smartphone, tablet e desktop.</p>
 
 > Status do projeto: Concluido :heavy_check_mark:
 
 ### Features
-
----
 
 - Página desenvolvida inteiramente em HTML5, CSS3 e JavaScript.
 - Design responsivo para diversas resoluções em smartphones, tablets e desktops.
@@ -25,8 +21,6 @@
 - Uso de icones SVG do Bootstrap Icons
 
 ### Conferindo o projeto
-
----
 
 Para visualizar o resultado final acesse:
 https://optimistic-leavitt-7cb5c3.netlify.app/
